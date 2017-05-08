@@ -73,6 +73,7 @@ const config = yargs
       }
       return true;
   })
+  .version()
   .argv;
 
 config.isCustomDataFlatten = config.customData === 'flatten';
